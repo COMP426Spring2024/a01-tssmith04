@@ -1,0 +1,130 @@
+nav li {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 10%;
+    height: 100%;
+    color: #ffffff;
+    
+}
+
+#nav-title {
+    flex-grow: 1; /* Fill up remaining space in ol */
+    /* Center text within li */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    padding-right: 30px;
+}
+
+nav {
+    background-color: #000000;
+    height: 8vh;
+}
+
+ol {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+body {
+    margin: 0; /* Put Navigation bar flush with the top */
+}
+
+div.page{
+    background-color: #a3afbf;
+    margin: 2vh 10vw;
+    border: 2px solid #000000;
+}
+
+div.text-section {
+    margin: 30px;
+}
+
+a.nav{
+    font-family: inherit;
+    font-size: inherit;
+    color: #ffffff;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+nav li.nav:hover {
+    background-color: #343940;
+}
+
+img.left-img {
+    margin: 0 5vw;
+}
+
+.right-text {
+    flex-grow: 1;
+    padding: 0 10px;
+    margin: 0 30px 0 0;
+}
+
+.subsection {
+    display: inline-flex;
+}
+
+.sources {
+    padding: 0 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul li{
+    color: #000000;
+    font-size: large;
+}
+
+.scaled-img {
+    width: 30%;
+    height: auto;
+}
+
+#creation {
+    margin: 30px;
+}
+
+.top-margin{
+    margin-top: 30px;
+}
+
+p {
+    font-weight:500;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 0 10px;
+    text-align: center;
+}
+th p {
+    font-weight: bold;
+}
+
+td img{
+    width: 30vw;
+    padding: 10px;
+}
+table{
+    border-spacing: 0px;
+    margin: auto;
+}
